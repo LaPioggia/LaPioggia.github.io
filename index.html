@@ -64,120 +64,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-接口" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/11/24/%E6%8E%A5%E5%8F%A3/" class="article-date">
-  <time datetime="2020-11-24T11:31:35.000Z" itemprop="datePublished">2020-11-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/11/24/%E6%8E%A5%E5%8F%A3/">接口</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#<em>xml</em><br>可扩展的标记语言<br>##一. 作用</p>
-<ol>
-<li><p>保存数据，且数据具有自我描述性</p>
-</li>
-<li><p>作为项目或模块的配置文件</p>
-</li>
-<li><p>作为网络传输数据的格式（以JSON为主）<br>##二. 结构<br>xml声明<br>根元素<br>子元素<br>根元素<br>【例】</p>
- <?xml version="1.0" encoding="utf-8"?>
- <books>
- <book sn="123456789">
-     name="asd"
-     price="12"
-     author="123"
- </book>
- <book sn="09876543">
-     name="zxc"
-     price="23"
-     author="98"
- </book>
- </books>
-##三. 语法规则</li>
-<li><p>标签名大小写不敏感</p>
-</li>
-<li><p>标签有属性：基本属性、事件属性</p>
-</li>
-<li><p>标签要闭合</p>
-</li>
-<li><p>名称可以包含字母、数字和其他字母，不能包含空格</p>
-</li>
-<li><p>属性需要双引号</p>
-</li>
-<li><p>文档必须有根元素（没有父标签的顶级元素且唯一）</p>
-</li>
-<li><p>实体引用</p>
-<table>
-<thead>
-<tr>
-<th>表</th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&amp;lt;</td>
-<td>&lt;</td>
-</tr>
-<tr>
-<td>&amp;gt;</td>
-<td>&gt;</td>
-</tr>
-<tr>
-<td>&amp;amp;</td>
-<td>&amp;</td>
-</tr>
-<tr>
-<td>&amp;apos;</td>
-<td>‘</td>
-</tr>
-<tr>
-<td>&amp;quot;</td>
-<td>“</td>
-</tr>
-<tr>
-<td>##四. 其他</td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
-<li><p>注释：&lt;!– –&gt;</p>
-</li>
-<li><p>CDATA区，不会解析xml<br> 格式：&lt;![CDATA[文本内容]]&gt;</p>
-<pre><code> &lt;books&gt;
- &lt;book sn=&quot;SN123123123&quot;&gt;
-     &lt;name&gt;时间简史&lt;/name&gt;
-     &lt;author&gt;霍金&lt;/author&gt;
- &lt;/book&gt;
- &lt;/books&gt;</code></pre>
-</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2020/11/24/%E6%8E%A5%E5%8F%A3/" data-id="ckhxcqtu00000qsv78lz96mo2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-xml" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/11/24/xml/" class="article-date">
@@ -282,7 +168,121 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/11/24/xml/" data-id="ckhxcqtu90001qsv781iifocz" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/11/24/xml/" data-id="ckhxexqnf0001hcv71k65bjim" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-接口" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/11/24/%E6%8E%A5%E5%8F%A3/" class="article-date">
+  <time datetime="2020-11-24T11:31:35.000Z" itemprop="datePublished">2020-11-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/11/24/%E6%8E%A5%E5%8F%A3/">接口</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#<em>xml</em><br>可扩展的标记语言<br>##一. 作用</p>
+<ol>
+<li><p>保存数据，且数据具有自我描述性</p>
+</li>
+<li><p>作为项目或模块的配置文件</p>
+</li>
+<li><p>作为网络传输数据的格式（以JSON为主）<br>##二. 结构<br>xml声明<br>根元素<br>子元素<br>根元素<br>【例】</p>
+ <?xml version="1.0" encoding="utf-8"?>
+ <books>
+ <book sn="123456789">
+     name="asd"
+     price="12"
+     author="123"
+ </book>
+ <book sn="09876543">
+     name="zxc"
+     price="23"
+     author="98"
+ </book>
+ </books>
+##三. 语法规则</li>
+<li><p>标签名大小写不敏感</p>
+</li>
+<li><p>标签有属性：基本属性、事件属性</p>
+</li>
+<li><p>标签要闭合</p>
+</li>
+<li><p>名称可以包含字母、数字和其他字母，不能包含空格</p>
+</li>
+<li><p>属性需要双引号</p>
+</li>
+<li><p>文档必须有根元素（没有父标签的顶级元素且唯一）</p>
+</li>
+<li><p>实体引用</p>
+<table>
+<thead>
+<tr>
+<th>表</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;lt;</td>
+<td>&lt;</td>
+</tr>
+<tr>
+<td>&amp;gt;</td>
+<td>&gt;</td>
+</tr>
+<tr>
+<td>&amp;amp;</td>
+<td>&amp;</td>
+</tr>
+<tr>
+<td>&amp;apos;</td>
+<td>‘</td>
+</tr>
+<tr>
+<td>&amp;quot;</td>
+<td>“</td>
+</tr>
+<tr>
+<td>##四. 其他</td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p>注释：&lt;!– –&gt;</p>
+</li>
+<li><p>CDATA区，不会解析xml<br> 格式：&lt;![CDATA[文本内容]]&gt;</p>
+<pre><code> &lt;books&gt;
+ &lt;book sn=&quot;SN123123123&quot;&gt;
+     &lt;name&gt;时间简史&lt;/name&gt;
+     &lt;author&gt;霍金&lt;/author&gt;
+ &lt;/book&gt;
+ &lt;/books&gt;</code></pre>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/11/24/%E6%8E%A5%E5%8F%A3/" data-id="ckhxexqnm0002hcv72nzad3vy" class="article-share-link">Share</a>
       
       
     </footer>
@@ -331,7 +331,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/11/24/hello-world/" data-id="ckhvw9sxr000074v7dxgwc3wx" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/11/24/hello-world/" data-id="ckhxexqna0000hcv7dpr7457d" class="article-share-link">Share</a>
       
       
     </footer>
@@ -372,11 +372,11 @@
       <ul>
         
           <li>
-            <a href="/2020/11/24/%E6%8E%A5%E5%8F%A3/">接口</a>
+            <a href="/2020/11/24/xml/">xml</a>
           </li>
         
           <li>
-            <a href="/2020/11/24/xml/">xml</a>
+            <a href="/2020/11/24/%E6%8E%A5%E5%8F%A3/">接口</a>
           </li>
         
           <li>
